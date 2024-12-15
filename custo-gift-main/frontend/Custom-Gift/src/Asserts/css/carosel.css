@@ -1,0 +1,14 @@
+.card{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.card:hover{
+    
+}
+.product--image{
+    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+    width: 300px;
+}

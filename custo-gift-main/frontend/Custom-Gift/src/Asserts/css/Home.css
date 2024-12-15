@@ -1,0 +1,13 @@
+.home{
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.hi{
+  margin-top: 520px;
+  margin-left: 900px;
+  width: 160px;
+  height:70px;
+  border-radius: 20px;
+}

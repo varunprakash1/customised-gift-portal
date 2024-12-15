@@ -1,0 +1,82 @@
+.container-fluid {
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE4C9;
+  }
+  
+  .two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #FFE4C9;
+    padding: 25px;
+    align-items: start;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-column: 1 / 2;
+  }
+  
+  .price-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .price-label {
+    font-size: 50px;
+    color: red;
+    margin-right: 20px; /* Adjust spacing as needed */
+  }
+  
+  .hii {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .price-amount {
+    font-size: 50px;
+    color: red;
+    margin: 0;
+  }
+  
+  .pin {
+    height: 30px;
+    margin-bottom: 10px; /* Added margin for spacing */
+  }
+  
+  .order {
+    height: 70px;
+    width: 200px;
+    margin: 0 auto; /* Centering the button */
+  }
+  
+  .desc-container {
+    grid-column: 2 / 3;
+    align-self: center;
+    
+  }
+  .ind{
+    box-shadow: inset;
+    box-shadow: 10px 10px 5px lightcoral;
+    border-radius: 10px;
+    height: 450px;
+    width: 600px;
+  }
+  .sin{
+     height: 70px;
+  }

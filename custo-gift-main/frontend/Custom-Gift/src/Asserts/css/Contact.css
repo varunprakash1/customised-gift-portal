@@ -1,0 +1,77 @@
+/* Container for the contact form */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ECCDB4; /* Light background for contrast */
+    padding: 20px;
+}
+
+/* Style for the form */
+form {
+    max-width: 600px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #fff; /* White background for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 25px;
+}
+
+/* Style for form heading */
+form h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #2c3e50; /* Darker color for better readability */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Style for input boxes */
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* General style for input fields */
+.input-box .field {
+    margin-left: 20px;
+    width: 70%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 8px;
+    transition: border-color 0.3s ease; /* Smooth transition for focus effect */
+}
+
+/* Style for textarea */
+.input-box .field.mess {
+    height: 200px;
+    resize: none;
+}
+
+/* Focus effect for input fields */
+.input-box .field:focus {
+    border-color: #3498db; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Light blue shadow for focus */
+}
+
+/* Style for labels */
+label {
+    font-size: 16px;
+    color: #555; /* Slightly lighter color for labels */
+    margin-bottom: 5px;
+}
+
+/* Style for form heading */
+h2 {
+    color: #e74c3c; /* Red color for emphasis */
+    margin-top: 0;
+    margin-bottom: 20px; /* Space below the heading */
+}

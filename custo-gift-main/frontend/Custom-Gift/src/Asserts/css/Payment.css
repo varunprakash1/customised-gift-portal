@@ -1,0 +1,72 @@
+.payment-container {
+    position: relative;
+    margin-top: 200px; /* Increase margin to push content down */
+  }
+  
+  .card-preview {
+    position: absolute;
+    top: -150px; /* Adjust this to control the card's vertical position */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 350px;
+    z-index: 2;
+  }
+  
+  .credit-card {
+    background: linear-gradient(135deg, #00416A, #E4E5E6);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .card-content {
+    position: relative;
+  }
+  
+  .chip {
+    width: 40px;
+    height: 30px;
+    background-color: #d4af37;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .card-name {
+    margin-top: 100px;
+  }
+  
+  .card-number {
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    margin: 15px 0;
+  }
+  
+  .card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .expiry-date {
+    font-size: 1rem;
+  }
+  
+  .card-brand {
+    width: 50px;
+    height: auto;
+  }
+  
+  .payment-form {
+    margin-top: 50px; /* Adjust to create more space between card and form */
+    padding-top: 100px; /* Extra padding to avoid overlap */
+  }
+  
+  .payment-form form {
+    margin-top: 20px;
+  }
+  

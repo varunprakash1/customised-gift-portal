@@ -1,0 +1,42 @@
+.bg{
+    height: 100vh;
+    width: 100vw;
+    background-image:url('../images/pexels-george-dolgikh-551816-1303082.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Log{
+    color:  white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:400px;
+    border: 1px solid  #000;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    
+}
+input{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+    }
+button{
+        height: 40px;
+        margin-top: 30px;
+    width: 100px;
+    border-radius: 10px;
+    color: #FF5F1F;
+
+    
+}
+a{
+    font-size: 20px;
+    
+}
